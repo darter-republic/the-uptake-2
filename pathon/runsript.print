@@ -1,0 +1,14 @@
+#paythoncomment this code used by puzza hut hungsry
+#payhoncomment fir user expetience survey
+print("offical pizzahut userlist for experience")
+pizza = open("pizzalist.txt", "a") 
+#print("Where buyit:") 
+wjerebought="pitta hut"
+print("pizza price") 
+price= input() 
+if int(str(price)) < 1500:
+    print("many forint for pizza. hut is cheap.")
+print("reviewed")
+revive= input()
+pizza.write("\n"+""+ " "+wjerebought+'" "'+price+" 234 "+revive); 
+pizza.close()
